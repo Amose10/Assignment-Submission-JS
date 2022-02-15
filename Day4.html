@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Day4</title>
+  </head>
+  <body>
+    <script>
+      var students = [
+        {
+          name: "hari",
+          age: 19,
+          department: "IT",
+          section: "A",
+        },
+        {
+          name: "Raj",
+          age: 20,
+          department: " CSE",
+          section: "A",
+        },
+        {
+          name: "Bhavesh",
+          age: 18,
+          department: "CIVIL",
+          section: "B",
+        },
+        {
+          name: "Jai",
+          age: 21,
+          department: "MECH",
+          section: "B",
+        },
+        {
+          name: "Keerthi",
+          age: 20,
+          department: "ECE",
+          section: "B",
+        },
+      ];
+      for (var i = 0; i < students.length; i++) {
+        console.log(students[i].name);
+      }
+      students.forEach(function (name, i, students) {
+        console.log(name);
+      });
+    </script>
+  </body>
+</html>
